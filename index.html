@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/69fc9c90c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <div class="bar" id="home">
+        <nav>
+            <h2 class="logo">Port<span>folio</span></h2>
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <a href="./img/Mohit Resume.pdf" class="cv">CV</a>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <!--Now Content-->
+        <div class="content">
+            <div>
+                <h4>Hello , my name is </h4>
+                <h1 class="name">Mohit <span> Yadav </span></h1>
+                <h3>I'm a Web Developer </h3>
+            </div>
+        </div>
+    </div>
+    <!--About section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="first">
+                    <img src="./img/mm.png" alt="">
+                </div>
+                <div class="second">
+                    <h1 class="ab">About Me</h1>
+                    <h3>Web Developer & <span> Video Editor </span> </h3>
+                    <p>Hi , My name is Mohit Yadav. I am persuing my bechalor of engineering in information technology
+                        from Mugneeram Bangur Memorial University , Jodhpur.
+                        I have interest in :->
+                        web development
+                        programming languages
+                        video editing 😀 and
+                        online gaming. 👌
+                    </p>
+                    <!-- <div class="tabs">
+                            <p class="tab1 p1">Skills</p>
+                            <p class="tab1">Experience</p>
+                            <p class="tab1">Education</p>
+                        </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Services Section-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="ab">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Proficient in HTML and CSS. I can replicate your UI design . I already created some projects using HTML and CSS.
+                        eg. Instagram clone and portfolio website. </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I use Figma for UI/UX Design .UI design is an important aspect of web development and requires
+                        attention to detail, creativity, and an understanding of user experience. </p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+                    <h2>Video Editing & 3D</h2>
+                    <p>Mostly i use adobe premere pro and after effect for video editing.
+                        and have a sufficient knowledge of Blender 3D .
+                        I also created some youtube videos in edit and 3D also.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio Section-->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="ab">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/w01.png" alt="">
+                    <div class="text">
+                        <h3>Web page</h3>
+                        <p>These screenshots are of a portfolio website which I created using only HTML and CSS, and a little bit of JavaScript to take contact details. This website is fully responsive in all devices.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/w02.png" alt="">
+                    <div class="text">
+                        <h3>UI/UX</h3>
+                        <p>This is a UI design that I created during a 2-day workshop on Figma design. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/w03.png" alt="">
+                    <div class="text">
+                        <h3>Blender 3D</h3>
+                        <p>I created a 3D Blender video for  YouTube channel. The link is below if you want to watch that video.</p>
+                        <a href="https://youtu.be/c1qRYO8bxOA" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact Us page -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <h1 class="abc">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mohityadav724072@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91-7240726458</p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100028687542045"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mohityadav724072/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Mohityadav724072"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mohityadav724072/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./img/Mohit Resume.pdf" class="cv dwn">Download CV</a>
+                </div>
+                <div class="col2">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="cv dwn sub">Submit</button>
+
+                    </form>
+                    <div id="msg"><span></span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @MohitYadav </p>
+    </div>
+
+    <!--Script for responsiveness-->
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!--Sheet Github-->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxeswzW_e7qoH2p1N6za3nczp0aexC-b2SJBxLvor8P9K-QLgWrVH3im-VPhor0WvN-/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
