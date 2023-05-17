@@ -454,3 +454,192 @@ nav .fas{
 #msg span{
     color: #61b752;
 }
+
+
+/* ----------------skills------------------ */
+
+#skills{
+    padding: 50px 90px;
+    height: 100%;
+    color: white;
+}
+.skill-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 50px;
+    margin-top: 40px;
+}
+.skill-container .skill-main .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+    font-weight: 500px;
+}
+.skill-main .linebar{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill-main .linebar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #e74d06;
+    border-radius: 25px;
+}
+.skill-main .info p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.skill-main .linebar .html{
+    width: 90%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill-main .linebar .html{
+    width: 90%;
+    animation: html 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill-main .linebar .css{
+    width: 90%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill-main .linebar .js{
+    width: 20%;
+    animation: js 2s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }100%{
+        width: 20%;
+    }
+}
+.skill-main .linebar .dsa{
+    width: 50%;
+    animation: dsa 2s;
+}
+@keyframes dsa {
+    0%{
+        width: 0%;
+    }100%{
+        width: 50%;
+    }
+}
+.skill-main .linebar .ml{
+    width: 70%;
+    animation: ml 2s;
+}
+@keyframes ml {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill-main .linebar .cp{
+    width: 50%;
+    animation: cp 2s;
+}
+@keyframes cp {
+    0%{
+        width: 0%;
+    }100%{
+        width: 50%;
+    }
+}
+.skill-main .linebar .cl{
+    width: 90%;
+    animation: cl 2s;
+}
+@keyframes cl {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill-main .linebar .cpl{
+    width: 40%;
+    animation: cpl 2s;
+}
+@keyframes cpl {
+    0%{
+        width: 0%;
+    }100%{
+        width: 40%;
+    }
+}
+.skill-main .linebar .pp{
+    width: 50%;
+    animation: pp 2s;
+}
+@keyframes pp {
+    0%{
+        width: 0%;
+    }100%{
+        width: 50%;
+    }
+}
+.skill-main .linebar .bd{
+    width: 30%;
+    animation: bd 2s;
+}
+@keyframes bd {
+    0%{
+        width: 0%;
+    }100%{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:600px){
+    #skills{
+        padding: 30px 20px;
+        height: 100%;
+        color: white;
+    }
+    .skill-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 30px;
+        grid-column-gap: 50px;
+        margin-top: 40px;
+    }
+    .skh{
+        font-size: 20px;
+    }
+    .skill-main .info p{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    .skill-container{
+        padding: 10px 30px;
+    }
+}
